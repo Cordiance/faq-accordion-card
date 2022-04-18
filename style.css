@@ -1,0 +1,138 @@
+/* Text */
+/* Background Gradient */
+/* Dividers */
+/* Font (size: 400,700) */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6565e7), color-stop(90%, #af67e9));
+  background: linear-gradient(0deg, #6565e7 0%, #af67e9 90%);
+  color: #1d1e35;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card {
+  width: 920px;
+  height: 500px;
+  border-radius: 20px;
+  border: none;
+  background-image: url("/images/bg-pattern-desktop.svg");
+  background-position: -36rem -19rem;
+  background-repeat: no-repeat;
+  padding-right: 5rem;
+}
+
+body .card .card-body {
+  height: 450px;
+}
+
+body .card .woman {
+  position: absolute;
+  top: 13%;
+  left: -18%;
+}
+
+body .card .img-container {
+  width: 100%;
+  height: 120%;
+  overflow: hidden;
+}
+
+body .card .box {
+  position: absolute;
+  left: -10%;
+  top: 42%;
+}
+
+body .card .faq {
+  text-align: left;
+  top: 10%;
+}
+
+body .card .faq .card-title {
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+body .card .faq hr {
+  margin: 0.8rem;
+}
+
+body .card .faq .accordion {
+  text-align: left;
+  color: #4a4b5e;
+  background-color: white;
+  width: 100%;
+  padding-right: 1.5rem;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .card .faq p {
+  color: #787887;
+  font-size: 0.75rem;
+  padding: 0.8rem 2rem 0 0.1rem;
+  margin-bottom: 0;
+}
+
+body .card .faq .accordion:after {
+  content: url("images/icon-arrow-down.svg");
+}
+
+body .card .faq .accordion:hover {
+  color: #f47c57;
+}
+
+body .card .faq .accordion:active,
+body .card .faq .accordion:focus {
+  color: #1d1e35;
+  font-weight: 700;
+}
+
+body .card .faq .active:after,
+body .card .faq .focus:after {
+  content: url("images/icon-arrow-down.svg");
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+body .card .faq .panel {
+  display: none;
+  overflow: hidden;
+}
+
+body .attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  right: 35%;
+}
+
+body .attribution a {
+  color: #12215e;
+}
+/*# sourceMappingURL=style.css.map */
