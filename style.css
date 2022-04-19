@@ -135,4 +135,59 @@ body .attribution {
 body .attribution a {
   color: #12215e;
 }
+
+@media screen and (max-width: 1020px) {
+  body {
+    margin: 4%;
+  }
+  body .card {
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 895px) {
+  body .card {
+    padding-right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 330px;
+    height: 540px;
+    background-size: 75%;
+    background-position: 2.9rem -9.5rem;
+  }
+  body .card .img-container {
+    overflow: visible;
+  }
+  body .card .woman-mobile {
+    width: 75%;
+    position: absolute;
+    top: -186.5%;
+    left: 12%;
+  }
+  body .card .card-body {
+    height: 50px;
+    text-align: center;
+  }
+  body .card .card-body .card-title {
+    padding-top: 3rem;
+    padding-bottom: 1.4rem;
+  }
+  body .card .card-body .accordion {
+    font-size: 0.85rem;
+  }
+  body .card .card-body p {
+    text-align: left;
+  }
+}
 /*# sourceMappingURL=style.css.map */
